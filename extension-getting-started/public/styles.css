@@ -1,6 +1,10 @@
-.title {
+.title, .title-streamer {
     font-size: 3em;
     color: white;
+}
+
+.title-streamer {
+    width: 100px;
 }
 
 .subtitle {
@@ -28,11 +32,12 @@ body {
 .submit-button {
     margin-block-start: 1em;
     height: 2em;
-    width: 15%;
+    width: 20%;
     background-color: #5F4996;
     color: white;
     border: none;
     font-size: 2em;
+    text-transform: uppercase;
 }
 
 .relationship-icon {
@@ -43,16 +48,15 @@ body {
 
 .user {
     display: flex;
+    flex-direction: row;
     align-items: center;
     margin-block-end: 2em;
 }
 
 .user-profile {
-    background-color: #5F4996;
-    border-radius: 50%;
     height: 5em;
     width: 5em;
-    margin-right: 1em;
+    margin-right: 3em;
 }
 
 .user-info {
@@ -67,4 +71,5 @@ body {
 .user-subscribers {
     color: white;
     font-size: 1em;
+    font-weight: 300;
 }
