@@ -10,7 +10,9 @@
 
 body {
     background-color: #000000;
-    opacity: .94;
+    opacity: .90;
+    font-family: 'Helvetica Neue';
+    margin: 3em;
 }
 
 /* streamer-side */
@@ -40,7 +42,9 @@ body {
 /* viewer side */
 
 .user {
-    display: inline;
+    display: flex;
+    align-items: center;
+    margin-block-end: 2em;
 }
 
 .user-profile {
@@ -48,6 +52,11 @@ body {
     border-radius: 50%;
     height: 5em;
     width: 5em;
+    margin-right: 1em;
+}
+
+.user-info {
+    margin-left: 1em;
 }
 
 .user-name {
